@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hero-section {
+  background-image: url(https://kerrilive.netlify.app/light/images/header-bg.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+.hero-section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+.hero-info {
+  z-index: 1;
+}
+.about-icon {
+  padding: 10px;
+  border-radius: 50%;
+  display: inline;
+}
+.card.col-md-3 {
+  margin: 0px 10px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.icon-border {
+  height: 3px;
+  width: 30%;
+  background-color: rgb(235, 96, 96);
+  text-align: center;
+  margin: auto;
+  transition: ease-in-out 0.4s;
+  visibility: visible;
+}
+.card.col-md-3:hover .icon-border {
+  width: 50%;
+}
+.services-icon {
+  color: rgb(235, 96, 96);
+  font-size: 40px;
+}
+.services-section {
+  background-color: rgb(247, 252, 250);
+  background-size: auto;
+}
+.our-services-info {
+  margin-top: 100px;
+  padding-top: 50px;
+}
+.freelancer-section {
+  margin: 100px 0;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256S114.6 512 256 512s256-114.6 256-256zM271 135c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-87 87 87 87c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L167 273c-9.4-9.4-9.4-24.6 0-33.9L271 135z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M0 256C0 397.4 114.6 512 256 512s256-114.6 256-256S397.4 0 256 0S0 114.6 0 256zM241 377c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z'/%3E%3C/svg%3E");
+}
+.our-client-section {
+  background-color: rgb(247, 252, 250);
+  background-size: auto;
+  padding-top: 20px;
+}
+.carousel-icon {
+  color: rgb(207, 62, 62);
+  font-size: 40px;
+}
+.client-section-card-img {
+  border-radius: 50%;
+  margin: 20px auto;
+  padding-top: 50px;
+}
+.card.border-0.portfolio-image {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  height: 195px;
+  border-radius: 10px;
+}
+
+.card.border-0.portfolio-image .project-image {
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  transition: ease-in-out 0.5s;
+  top: 100%;
+  opacity: 0.9;
+  visibility: visible;
+}
+.card.border-0.portfolio-image:hover .project-image {
+  opacity: 0.9;
+  visibility: visible;
+  top: 0%;
+}
+.blog-section {
+  background-color: rgb(247, 252, 250);
+  height: auto;
+}
+.blog-info-section {
+  padding-top: 50px;
+  margin: 100px 0;
+}
+.contect-section-icon {
+  color: rgb(207, 62, 62);
+  font-size: 35px;
+  margin: auto 30px;
+  padding: 0 10px;
+}
+.contact-section {
+  background-color: rgb(247, 252, 250);
+}
+.contact-info-section {
+  margin: 100px 0;
+}
+.footer-section {
+  background-color: rgb(8, 4, 26);
+  height: 200px;
+}
+.footer-icon {
+  color: gray;
+  font-size: 30px;
+  margin: 50px 5px;
+
+  border-radius: 50%;
+  display: inline-block;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: rgb(207, 62, 62);
+}
+
+.col-md-2.submit-button {
+  margin: 2.5% 3.5% 2.5% 0;
+}
+.nav-link {
+  /* background-color: transparent; */
+  color: black;
+}
+.nav-link:hover {
+  /* background-color: aquamarine; */
+  color: rgb(24, 143, 123);
+} /*
+.bg-light {
+  background-color: turquoise !important;
+  opacity: 0.7;
+} */
